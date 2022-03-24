@@ -14,6 +14,11 @@
   align-self: center;
 }
 
+.active-id {
+  border-bottom: 1px solid yellow;
+  color: yellow;
+}
+
 @media screen and (max-width: 768px) {
   .tab-name {
     font-size: 20px;
