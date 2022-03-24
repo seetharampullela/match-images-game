@@ -1,0 +1,21 @@
+.tab-name {
+  color: white;
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: 'Roboto';
+  line-height: 1;
+}
+.list-item {
+  padding: 0px;
+  align-self: center;
+}
+
+@media screen and (max-width: 768px) {
+  .tab-name {
+    font-size: 20px;
+  }
+}
